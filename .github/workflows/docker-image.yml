@@ -9,7 +9,7 @@ env:
   IMAGE: d9lab/Ant-Media-Server
   REGISTRY2: docker.io
   IMAGE2: d9lab01/ant-media-server
-  ANT_VER: 2.5.3
+  ANT_VER: 2.6.4
   
 jobs:
   build:
