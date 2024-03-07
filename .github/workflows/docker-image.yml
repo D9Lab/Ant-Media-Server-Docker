@@ -24,7 +24,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Prepare files
       run: |
-        wget https://github.com/ant-media/Ant-Media-Server/releases/latest/download/ant-media-server-community-${{ env.ANT_VER }}.zip -nv -O ant.zip
+        wget https://github.com/ant-media/Ant-Media-Server/releases/latest/download/ant-media-server-${{ env.ANT_VER }}-community.zip -nv -O ant.zip
         
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v2
